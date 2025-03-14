@@ -1,0 +1,42 @@
+{
+    "theme_color": "#0A0A0A",
+    "background_color": "#0A0A0A",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./index.html",
+    "name": "bring!",
+    "short_name": "bring!",
+    "description": "Einkaufsliste",
+    "icons": [
+        {
+            "src": "./icon75.png",
+            "sizes": "75x75",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon100.png",
+            "sizes": "100x100",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon200.png",
+            "sizes": "200x200",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon300.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "./icon400.png",
+            "sizes": "400x400",
+            "type": "image/png"
+        }
+    ]
+}
