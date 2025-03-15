@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bring! v1</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="manifest" href="./manifest.json">
+    <script type="module" src="./main.js"></script>
+</head>
+<body>
+    <h1>bring!</h1>
+    <div class="wrapper">
+        <form>
+            <input id="todo-input" type="text" placeholder="new item (max. 8 Zeichen!11!1!)" autocomplete="off">
+            <button id="add-button">add</button>
+        </form>
+        <ul id="todo-list">
+            
+        </ul>
+    </div>
+    <button id="logout-btn">Abmelden</button>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyCeTkkSTm3I1iNtd_zNLS9AtFNOXVCIvcQ",
+          authDomain: "bring-fd891.firebaseapp.com",
+          projectId: "bring-fd891",
+          storageBucket: "bring-fd891.firebasestorage.app",
+          messagingSenderId: "423866146447",
+          appId: "1:423866146447:web:f597e70809d7c32b85dafa"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      </script>
+</body>
+</html>
