@@ -23,13 +23,18 @@ todoForm.addEventListener("submit", function(e){
 function addTodo(){
     const todoText = todoInput.value.trim();
     if(todoText.length > 0){
-        const todoObject = {
+        if(todoText.length <= 8){
+            const todoObject = {
             text: todoText,
             completed: false
+            }
+            allTodos.push(todoObject);
+            updateTodoList();
+            saveTodos();
         }
-        allTodos.push(todoObject);
-        updateTodoList();
-        saveTodos();
+        else{
+            alert("maximal 8 Zeichen :)")
+        }
         todoInput.value = "";
     }
 }
